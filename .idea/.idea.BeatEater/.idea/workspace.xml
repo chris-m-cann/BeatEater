@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5a2f2c-6412-4cc6-aed5-0e00f5970938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AlignViewWithArCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AlignViewWithArCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundQuad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MouthCollider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MouthCollider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/CoroutinesUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/CoroutinesUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/SetInitialVelocity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/SetInitialVelocity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/SetReplacementMaterial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/SetReplacementMaterial.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatEater/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatEater/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatEater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatEater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AR Default Face.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AR Default Face.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Materials/Background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Materials/Background.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Materials/FaceUnlit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Materials/FaceUnlit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Textures/MaskRenderTexture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rendering/Textures/MaskRenderTexture.renderTexture.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +39,19 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundQuad.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlignViewWithArCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Events/ColliderUnityEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/Events/ColliderUnityEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/CoroutinesUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/SetInitialVelocity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouthCollider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Rendering/Materials/StencilHole.shader" />
+        <option value="$PROJECT_DIR$/Assets/Rendering/Shaders/BasicTest.shader" />
+        <option value="$PROJECT_DIR$/Assets/Rendering/Shaders/DepthMask.shader" />
+        <option value="$PROJECT_DIR$/Assets/Rendering/Shaders/StencilHole.shader" />
+        <option value="$PROJECT_DIR$/Assets/Rendering/Shaders/BackgroundReplacementStencil.shader" />
+        <option value="$PROJECT_DIR$/Assets/Rendering/Shaders/SampleTextureWriteWhenStencilSet.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/SetReplacementMaterial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/ReplaceMaterialForCamera.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +95,12 @@
       <option name="presentableId" value="Default" />
       <updated>1602425628132</updated>
       <workItem from="1602425634763" duration="1458000" />
+      <workItem from="1602436977330" duration="2117000" />
+      <workItem from="1602517510718" duration="1965000" />
+      <workItem from="1602524116474" duration="1581000" />
+      <workItem from="1602694816036" duration="11010000" />
+      <workItem from="1602784709092" duration="1274000" />
+      <workItem from="1603305206018" duration="1318000" />
     </task>
     <servers />
   </component>
@@ -80,9 +117,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602426201681" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602426053275">
+    <state x="566" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602702140820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="566" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602702140820" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602696352116">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602426053275" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602696352116" />
   </component>
 </project>
