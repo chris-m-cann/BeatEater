@@ -104,16 +104,20 @@ namespace BeatEater
             showBitting = true;
             StopAllCoroutines();
             this.ExecuteAfter(biteTime, () => showBitting = false);
+
+            print($"############################# MOUTH POSIION ON BIT = {biteCenter}");
         }
     }
 }
 
 /*
-logic of a face collisions:
-    - if it gets bitten we score, else go through the face??
-    - if it hits the face then break
-    - if it hits the mouth and open go through
-    - if it hits the mouth and closed then break
-    - if it it gets bitten then
-
+box that the face lives in
+                               /|
+   (-.1, .2, 0)  (.1, .2, 0) /  |
+                |-----------|   |
+                |           |   | (.1, -.2, .6)
+                |           |   /
+                |           |  /
+                |           | /
+   (-.1, -.2, 0)|-----------| (.1, -.2, 0)
 */
